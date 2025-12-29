@@ -62,15 +62,15 @@ function app.CreateMinimapButton()
 		end,
 	})
 
-	local icon = LibStub("LibDBIcon-1.0", true)
-	icon:Register(appName, miniButton, MyAddon_Settings)
+	app.MinimapIcon = LibStub("LibDBIcon-1.0", true)
+	app.MinimapIcon:Register(appName, miniButton, MyAddon_Settings)
 
-	if MyAddon_Settings["minimapIcon"] == true then
+	if MyAddon_Settings["minimapIcon"] then
 		MyAddon_Settings["hide"] = false
-		icon:Show(appName)
+		app.MinimapIcon:Show(appName)
 	else
 		MyAddon_Settings["hide"] = true
-		icon:Hide(appName)
+		app.MinimapIcon:Hide(appName)
 	end
 end
 
