@@ -1,5 +1,5 @@
 ## Interface: 120000
-## Title: |cffC69B6DMy Addon|r
+## Title: |cff3FC7EBMy Addon|r
 ## Author: Slackluster
 ## IconTexture: Interface\AddOns\???\assets\???_icon.blp
 ## AddonCompartmentFunc: MyAddon_Click
