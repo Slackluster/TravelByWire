@@ -104,6 +104,9 @@ end)
 --------------------
 
 function app.CreateSlashCommands()
+	SLASH_RELOADUI1 = "/rl"
+	SlashCmdList.RELOADUI = ReloadUI
+
 	SLASH_MyAddon1 = "/???"
 	function SlashCmdList.MyAddon(msg, editBox)
 		local command, rest = msg:match("^(%S*)%s*(.-)$")
