@@ -6,8 +6,8 @@ local appName, app = ...
 
 -- Strings
 app.Name = "My Addon"
-app.NameLong = app.Colour(app.Name)
-app.NameShort = app.Colour("???")
+app.NameLong = app:Colour(app.Name)
+app.NameShort = app:Colour("???")
 app.NamePrefix = "MyAddon"
 
 -- Textures
