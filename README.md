@@ -8,7 +8,7 @@ A World of Warcraft addon. Download locations: [CurseForge](https://www.cursefor
 **To Do**
 - Watch this project
 - Settings -> General -> Disable 'Wikis' and 'Projects'
-- Settings -> Actions -> General -> 'Enable Read and write permissions' and 'Allow GitHub Actions to create and approve pull requests'
+- Settings -> Actions -> General -> 'Enable Read and write permissions'
 - Settings -> Secrets and variables -> Actions -> Add 'CF_API_KEY' and 'WAGO_API_TOKEN'
 
 ## If you are experiencing issues

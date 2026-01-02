@@ -11,7 +11,7 @@ app.NameShort = app.Colour("???")
 app.NamePrefix = "MyAddon"
 
 -- Textures
-app.Icon = "Interface\\AddOns\\???\\assets\\???_icon.blp"
+app.Icon = "Interface\\AddOns\\MyAddon\\assets\\icon.png"
 app.IconReady = "Interface\\RaidFrame\\ReadyCheck-Ready"
 app.IconNotReady = "Interface\\RaidFrame\\ReadyCheck-NotReady"
 app.IconLMB = "Interface\\TutorialFrame\\UI-Tutorial-Frame:12:12:0:0:512:512:10:65:228:283"
