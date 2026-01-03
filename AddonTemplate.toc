@@ -2,12 +2,13 @@
 ## Title: |cff3FC7EBMy Addon|r
 ## Author: Slackluster
 ## IconTexture: Interface\AddOns\???\assets\icon.png
-## AddonCompartmentFunc: MyAddon_Click
-## AddonCompartmentFuncOnEnter: MyAddon_Enter
-## AddonCompartmentFuncOnLeave: MyAddon_Leave
 ## Version: @project-version@
 ## X-Curse-Project-ID: ???
 ## X-Wago-ID: ???
+
+## AddonCompartmentFunc: MyAddon_Click
+## AddonCompartmentFuncOnEnter: MyAddon_Enter
+## AddonCompartmentFuncOnLeave: MyAddon_Leave
 
 ## SavedVariables: MyAddon_Settings, MyAddon_Cache
 ## SavedVariablesPerCharacter:
